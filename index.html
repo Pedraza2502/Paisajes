@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0">
+	  <title>Comenzando con la Fotografia</title>
+    <style media="screen">
+      #imagen2{
+        width: 50%;
+        transform: rotate(0deg);
+        transition: transform, 1s;
+      }
+      #imagen2:hover{
+        transform: rotate(10deg);
+      }
+      #imagen3{
+        width: 50%;
+        transform: translate(0px, 0px);
+        transition: transform, 1s;
+      }
+      #imagen3:hover{
+        transform: translate(20px, -5px);
+      }
+    </style>
+	  <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  </head>
+  <body>
+    <div class="contenido wrapper">
+      <header>
+        <div class="wrapper">
+          <h1 class="titulo">Comenzando con la Fotografia</h1>
+          <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Paisaje/paisajes.html">Paisajes</a>
+            <a href="retratos.html">Retratos</a>
+          </nav>
+        </div>
+      </header>
+      <seccion class="contenedor1">
+        <figure id="figura1">
+          <figcaption></figcaption>
+          <img id="imagen" src="imagenes/oceano.jpg" alt="Oceano">
+        </figure>
+      </seccion>
+      <seccion class="container">
+        <div class="contenedor2">
+          <figure>
+            <figcaption>Paisajes</figcaption>
+            <img id="imagen2" src="imagenes/tafi.jpg" alt="Tafi del Valle">
+          </figure>
+        </div>
+        <div class="contenedor3">
+          <figure>
+            <figcaption>Retratos</figcaption>
+            <img id="imagen3" src="imagenes/retrato.jpg" alt="Retrato">
+          </figure>
+        </div>
+      </seccion>
+      <footer>
+        <div class="foot">
+          <div class="contacto">
+            <h2>Contacto</h2>
+            <p>+542994248833</p>
+            <p>Calle San Juan 3300 "5°C"</p>
+            <a href="mailto:frankiito@hotmail.com?subject=feedback">frankiito_2502@hotmail.com</a>
+          </div>
+          <div class="terminos">
+            <h2>Terminos</h2>
+            <p>Atencion de 8:00 a 20:00 hs</p>
+          </div>
+          <div class="redes">
+            <h2>Redes Sociales</h2>
+            <p>Comenzando Fotografias</p>
+            <p>@FotografiasC</p>
+            <p>Comenzandofotografias</p>
+          </div>
+          <div class="derechos">
+            <h2>Derechos</h2>
+            ©Pedraza Franco 2018
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
